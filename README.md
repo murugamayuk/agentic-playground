@@ -41,3 +41,27 @@ Demonstrates:
 
 ```bash
 python main.py
+
+
+---
+
+# 🎨 Step 2 — Visual (this makes interviews EASY)
+
+Add this diagram to README:
+
+```text id="diag001"
+            +----------------------+
+            | Requirement Parser   |
+            +----------+-----------+
+                       |
+        -----------------------------------
+        |               |                |
++-------------+  +-------------+  +-------------+
+| Bio Agent   |  | Resume Agent|  | Ref Agent   |
++------+------+  +------+------+  +------+------+
+        |               |                |
+        ----------- Aggregation ----------
+                       |
+             +---------v---------+
+             | Score Synthesizer |
+             +-------------------+
