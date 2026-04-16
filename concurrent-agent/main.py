@@ -4,12 +4,18 @@ import os
 import time
 from contextlib import contextmanager
 from typing import Any, Dict, Callable
-
+from dotenv import load_dotenv
 from azure.identity import DefaultAzureCredential
 from azure.ai.projects import AIProjectClient
 
 from contextlib import contextmanager
 import time
+
+import os
+
+load_dotenv()
+
+
 metrics = {}
 
 @contextmanager

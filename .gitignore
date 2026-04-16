@@ -1,0 +1,7 @@
+.env
+*.env.txt
+*.pub
+*pwd*.txt
+__pycache__/
+.venv/
+*.pyc
